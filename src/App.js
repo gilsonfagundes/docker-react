@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Running from march-release branch!
+          Learn React 
         </a>
       </header>
     </div>
