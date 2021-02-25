@@ -2,5 +2,8 @@ sudo: required
 services:
   - docker
 
-before_install:
+script:
   - docker build t- gilsonfagundes/docker-react -f Dockerfile.dev .
+  - docker run gilsonfagundes/docker-react npm run test -- --coverage
+
+language: generic   
