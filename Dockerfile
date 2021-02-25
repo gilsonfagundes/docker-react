@@ -5,7 +5,7 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install
 COPY . .
-RUN npm run buid
+RUN npm run build
 
 # Run Phase
 
